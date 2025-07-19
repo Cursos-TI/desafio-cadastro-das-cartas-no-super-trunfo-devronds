@@ -37,7 +37,7 @@ int main() {
     printf("\n\n------ INFORMAÇÕES DA CIDADE ------\n");
 
     printf("ESTADO: %c \n", letra); //SAÍDA DE DADOS
-    printf("CÓDICO: %c%s \n", letra,num_estado); //SAÍDA DE DADOS
+    printf("CÓDIGO: %c%s \n", letra,num_estado); //SAÍDA DE DADOS
     printf("NOME DA CIDADE: %s \n", nome_cidade); //SAÍDA DE DADOS
     printf("POPULAÇÃO: %d \n", populacao); //SAÍDA DE DADOS
     printf("ÁREA: %f Km² \n", area); //SAÍDA DE DADOS
@@ -47,5 +47,4 @@ int main() {
     return 0; //RETORNA COMO O FIM DO PROGRAMA (SEMPRE USAR)
 
     // O CODICO USA VARIÁVEIS DO TIPO CHAR, INT E FLOAT PARA RECEBER DADOS DO USUÁRIO E EXIBIR INFORMAÇÕES SOBRE UMA CIDADE.
-    return 0;
 }
